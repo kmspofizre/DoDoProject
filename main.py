@@ -1,9 +1,4 @@
-import os
 from flask import Flask, render_template, redirect, abort, url_for, request
-from werkzeug.utils import secure_filename
-from flask_login import LoginManager, login_required, \
-    login_user, current_user, logout_user
-import datetime
 
 
 app = Flask(__name__)
